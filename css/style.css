@@ -1,0 +1,592 @@
+.mainPrincipal .titulo2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #310404;
+  font-size: 50px;
+}
+
+.mainPrincipal .recetaDia .titulo3Receta {
+  background-color: azure;
+  color: brown;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.mainPrincipal .recetaDia .titulo4Receta {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.mainPrincipal .recetaDia .receta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mainPrincipal .recetaDia .receta .parrafoRecetadia {
+  padding: 100px;
+}
+
+.mainPrincipal .titulo3Dato {
+  margin-top: 50px;
+  text-align: center;
+  color: brown;
+  background-color: azure;
+}
+
+.mainPrincipal .datoSemanal {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "  titulo4Dato imgPlantaCacao imgPlantaCacao"
+    "imgChoco1 pDato1 pDato1 "
+    "pDato2 . imagenChoco2";
+}
+.mainPrincipal .datoSemanal .titulo4Dato {
+  grid-area: titulo4Dato;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.mainPrincipal .datoSemanal .imgPlantaCacao {
+  width: 400px;
+  height: 250px;
+  grid-area: imgPlantaCacao;
+  margin: 20px;
+  transition: all 3s;
+}
+.mainPrincipal .datoSemanal .imgPlantaCacao:hover {
+  transform: scale(1.3, 1.3);
+}
+.mainPrincipal .datoSemanal .pDato1 {
+  grid-area: pDato1;
+  margin: 20px;
+}
+.mainPrincipal .datoSemanal .imgChoco1 {
+  width: 500px;
+  height: 250px;
+  grid-area: imgChoco1;
+  margin: 20px;
+  transition: all 3s;
+}
+.mainPrincipal .datoSemanal .imgChoco1:hover {
+  transform: scale(1.3, 1.3);
+}
+.mainPrincipal .datoSemanal .pDato2 {
+  grid-area: pDato2;
+  margin: 20px;
+}
+.mainPrincipal .datoSemanal .imagenChoco2 {
+  width: 400px;
+  height: 250px;
+  grid-area: imagenChoco2;
+  margin: 20px;
+  transition: all 3s;
+}
+.mainPrincipal .datoSemanal .imagenChoco2:hover {
+  transform: scale(1.3, 1.3);
+}
+
+#cabecera {
+  background-image: linear-gradient(#f7f5f5, #c3c3dc);
+}
+#cabecera .titulo {
+  color: brown;
+  text-align: center;
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.barraNavegacion .listaU {
+  margin-top: 50px;
+  color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.barraNavegacion .listaU li {
+  list-style: none;
+}
+.barraNavegacion .listaU a {
+  text-decoration: none;
+  color: brown;
+  font-size: larger;
+  font-weight: 900;
+}
+
+#cuerpo {
+  background-color: #e8e3d5;
+  font-family: "Macondo", cursive;
+}
+
+.formulario {
+  padding: 15px;
+  border: 2px solid #5d3e06;
+  margin: auto;
+  width: 30%;
+}
+.formulario input {
+  display: block;
+  margin: 15px;
+  width: 70%;
+}
+.formulario label {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  background-color: #efa9a9;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.formulario .textarea {
+  width: 80%;
+}
+.formulario .botonFormulario {
+  margin-left: 40%;
+}
+
+@media screen and (max-width: 600px) and (min-width: 1px) {
+  .mainRecetas .slide img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+  }
+  .mainRecetas .langostinos .recetaLangostino {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .mainRecetas .lomoDeCerdo .recetaLomo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .mainRecetas .salmon .recetaSalmon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .mainRecetas .strogonoff .recetaStrogonoff {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .mainRecetas .sara .recetaSara {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .mainPrincipal .titulo2 {
+    text-align: center;
+  }
+  .mainPrincipal .recetaDia {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPrincipal .recetaDia .receta {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPrincipal .datoSemanal {
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo {
+    text-align: center;
+  }
+  .imgRecetaDia {
+    width: 100%;
+  }
+  .sobreNosotros .mapa {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .formulario {
+    width: 70%;
+  }
+  .barraNavegacion .listaU {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.mainRecetas .recetasH2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .saladosH3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .langostinos .tituloLangostinos {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .langostinos .recetaLangostino .preparacionLangostino {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .langostinos .recetaLangostino .ingredientesLangostinos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .lomoDeCerdo .tituloLomo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .lomoDeCerdo .recetaLomo .PreparacionLomo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .lomoDeCerdo .recetaLomo .ingredientesLomo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .salmon .tituloSalmon {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .salmon .recetaSalmon .ingredientesSalmon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .salmon .recetaSalmon .preparacionSalmon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .strogonoff .tituloStrogonoff {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .strogonoff .recetaStrogonoff .ingredientesStrogonoff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .strogonoff .recetaStrogonoff .preparacionStrogonoff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .sara .tituloSara {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .sara .recetaSara .preparacionSara {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .sara .recetaSara .ingredientesSara {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainRecetas .dulces {
+  text-align: center;
+}
+
+.mainRecetas .h4Recetas {
+  color: brown;
+}
+
+.mainRecetas .tituloSelva {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainRecetas .recetaSelvaNegra {
+  margin-left: 20px;
+}
+
+.mainRecetas .slide img {
+  width: 65%;
+  height: 500px;
+  object-fit: cover;
+  margin: auto;
+}
+
+footer {
+  background-image: linear-gradient(#becfe3, #e9a892);
+  margin-top: 100px;
+}
+footer h4 {
+  color: aliceblue;
+  text-align: center;
+}
+footer .listaUfooter:hover {
+  transition: all 3s;
+  transform: scale(1.3, 1.3);
+}
+footer .listaUfooter {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+footer .listaUfooter li {
+  text-decoration: none;
+}
+
+.sobreNosotros .tituloMapa {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sobreNosotros .mapa {
+  margin-left: 25%;
+}
+
+.sobreNosotros .quienesSomos {
+  margin-top: 50px;
+  color: brown;
+  text-align: center;
+}
+
+.sobreNosotros .productos {
+  margin-top: 50px;
+  color: brown;
+  text-align: center;
+}
+
+.tienda .saladosH2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tienda .salados {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tienda .salados .empanadas,
+.tienda .salados .tartas,
+.tienda .salados .picadas,
+.tienda .salados .ravioles,
+.tienda .salados .canelones,
+.tienda .salados .fideosCaseros,
+.tienda .salados .pizzas,
+.tienda .salados .hamburguesasCaseras,
+.tienda .salados .sanguchesVacio,
+.tienda .salados .marisqueada,
+.tienda .salados .milanesa,
+.tienda .salados .paella,
+.tienda .salados .rabas {
+  background-color: #f1b9b9;
+  opacity: 0.8;
+  width: 300px;
+  margin: 50px;
+}
+.tienda .salados img {
+  display: inline;
+}
+.tienda .salados button {
+  background-color: #eca44b;
+}
+
+.tienda .empanadas:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .tartas:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .picadas:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .ravioles:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .canelones:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .fideosCaseros:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .pizzas:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .hamburguesasCaseras:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .sanguchesVacio:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .milanesa:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .marisqueada:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .rabas:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tienda .paella:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.dulcesH2 {
+  text-align: center;
+}
+
+.dulces {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dulces .budines,
+.dulces .tartasFrutales,
+.dulces .budinHamburgues,
+.dulces .mesasDulces,
+.dulces .tortas,
+.dulces .pastafrolas,
+.dulces .chessecake,
+.dulces .milhoja,
+.dulces .selvaNegraE,
+.dulces .tiramisu,
+.dulces .tortaPatagonica {
+  background-color: #c6f1f5;
+  opacity: 0.8;
+  width: 300px;
+  margin: 50px;
+}
+.dulces .budines img,
+.dulces .tartasFrutales img,
+.dulces .budinHamburgues img,
+.dulces .mesasDulces img,
+.dulces .tortas img,
+.dulces .pastafrolas img,
+.dulces .chessecake img,
+.dulces .milhoja img,
+.dulces .selvaNegraE img,
+.dulces .tiramisu img,
+.dulces .tortaPatagonica img {
+  display: inline;
+}
+.dulces .budines button,
+.dulces .tartasFrutales button,
+.dulces .budinHamburgues button,
+.dulces .mesasDulces button,
+.dulces .tortas button,
+.dulces .pastafrolas button,
+.dulces .chessecake button,
+.dulces .milhoja button,
+.dulces .selvaNegraE button,
+.dulces .tiramisu button,
+.dulces .tortaPatagonica button {
+  background-color: #eca44b;
+}
+
+.budines:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tartasFrutales:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.budinHamburgues:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.mesasDulces:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tortas:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.pastafrolas:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.chessecake:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.milhoja:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.selvaNegraE:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tiramisu:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}
+
+.tortaPatagonica:hover {
+  transition: all 2s;
+  transform: scale(1.3, 1.3);
+}

@@ -1,0 +1,31 @@
+.formulario {
+    padding: 15px;
+    border: 2px solid #5d3e06;
+    margin: auto;
+    width: 30%;
+    input {
+      display: block;
+      margin: 15px;
+      width: 70%;
+    }
+    label {
+      display: block;
+      text-align: center;
+      margin: auto;
+      width: 70%;
+      background-color: #efa9a9;
+      opacity: 0.7;
+      border-radius: 10px;
+    }
+    .textarea {
+      width: 80%;
+    }
+  
+    .botonFormulario {
+      margin-left: 40%;
+    }
+  }
+  
+  
+  
+  

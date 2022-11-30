@@ -1,0 +1,125 @@
+.mainRecetas {
+  .recetasH2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .saladosH3 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .langostinos {
+    .tituloLangostinos {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .recetaLangostino {
+      .preparacionLangostino {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+      .ingredientesLangostinos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .lomoDeCerdo {
+    .tituloLomo {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .recetaLomo {
+      .PreparacionLomo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+      .ingredientesLomo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .salmon {
+    .tituloSalmon {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .recetaSalmon {
+      .ingredientesSalmon {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+      .preparacionSalmon {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .strogonoff {
+    .tituloStrogonoff {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .recetaStrogonoff {
+      .ingredientesStrogonoff {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+      .preparacionStrogonoff {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .sara {
+    .tituloSara {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .recetaSara {
+      .preparacionSara {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+      .ingredientesSara {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+      }
+    }
+  }
+  .dulces {
+    text-align: center;
+  }
+
+  .h4Recetas {
+    color: brown;
+  }
+  .tituloSelva {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .recetaSelvaNegra {
+    margin-left: 20px;
+  }
+  .slide img {
+    width: 65%;
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+  }
+}

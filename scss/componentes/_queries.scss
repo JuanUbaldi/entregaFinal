@@ -1,0 +1,90 @@
+@media screen and (max-width: 600px) and (min-width: 1px) {
+    .mainRecetas {
+      .slide img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        margin: auto;
+      }
+      .langostinos {
+        .recetaLangostino {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      .lomoDeCerdo {
+        .recetaLomo {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+  
+      .salmon {
+        .recetaSalmon {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      .strogonoff {
+        .recetaStrogonoff {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      .sara {
+        .recetaSara {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+    }
+    .mainPrincipal {
+      .titulo2 {
+        text-align: center;
+      }
+      .recetaDia {
+        display: flex;
+        flex-direction: column;
+        .receta {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .datoSemanal {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .titulo {
+      text-align: center;
+    }
+  
+    .imgRecetaDia {
+      width: 100%;
+    }
+    .sobreNosotros {
+      .mapa {
+        margin-left: 0px;
+        width: 100%;
+      }
+    }
+    .formulario {
+      width: 70%;
+    }
+  
+    .barraNavegacion .listaU {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }

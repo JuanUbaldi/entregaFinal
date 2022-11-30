@@ -1,0 +1,28 @@
+#cabecera {
+    background-image: linear-gradient(rgb(247, 245, 245), rgb(195, 195, 220));
+    .titulo {
+      color: brown;
+      text-align: center;
+      font-weight: 500;
+      font-size: 100px;
+    }
+  }
+  
+  .barraNavegacion {
+    .listaU {
+      margin-top: 50px;
+      color: brown;
+      @include estilo_flex();
+      li {
+        list-style: none;
+      }
+  
+      a {
+        text-decoration: none;
+        color: brown;
+        font-size: larger;
+        font-weight: 900;
+      }
+    }
+  }
+  

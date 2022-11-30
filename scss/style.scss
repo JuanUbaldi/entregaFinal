@@ -1,0 +1,16 @@
+@mixin estilo_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@import "componentes/principal";
+@import "componentes/nav";
+@import "componentes/cuerpo";
+@import "componentes/boostrap";
+@import "componentes/formulario";
+@import "componentes/queries";
+@import "componentes/recetas";
+@import "componentes/footer";
+@import "componentes/sobreNosotros";
+@import "componentes/tienda";
